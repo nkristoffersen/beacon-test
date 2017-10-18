@@ -1,5 +1,9 @@
 const Bleacon = require('bleacon');
 
+function getCurrentTimestamp(){
+    return new Date()
+}
+
 function startBeacon() {
   // var uuid = 'e2c56db5dffb48d2b060d0f5a71096e0'; //sporty place
   var uuid = 'e2c56db5-dffb-48d2-b060-d0f5a71096e0'; //sporty place
